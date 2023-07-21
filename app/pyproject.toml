@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "granos-microservice"
+version = "0.1.0"
+description = ""
+authors = ["Kevin Schiebelbein <kschiebelbein@lartirigoyen.com>"]
+readme = "README.md"
+packages = [{include = "granos"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jwt = "1.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
