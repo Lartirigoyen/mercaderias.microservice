@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from dotenv import dotenv_values
 from dependencies import softcereal_connection
 import requests
+import json
 
 config = dotenv_values(".env")
 
