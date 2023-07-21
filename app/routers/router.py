@@ -40,5 +40,7 @@ async def example(senasa_cod_deposito: int):
     connection.close() """
   except Exception as e:
     print('Error ', e)
-  return senasa_data
+  return {
+    "partidas" : senasa_data
+  }
   
